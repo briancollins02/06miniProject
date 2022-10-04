@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/search-results.css">
+    <title>Search Engine</title>
+</head>
+<body>
+    <div id="container">
+        <section id="search-engine">
+            <h1>Library of Congress Search Engine</h1>
+            <form>
+                <input id="keyword" type="text" placeholder="chicago">
+                <input list="formats">
+                <datalist id="formats" type="datalist">
+                    <option value="Newspapers">
+                    <option value="Magazines">
+                    <option value="Manuscripts">
+                </datalist>
+                <button type="submit">Search</button>
+            </form>
+            <a></a>
+        </section>
+        <section id="results">
+            <h2>Showing results for: <span id=keyword-display>[search-term]</span></h2>
+            <div class="card">
+                <div class="api-data">
+                    <h3>[search-result title]</h3>
+                    <p>date: <span class="pub-date"></span></p>
+                    <p>subjects: <span class="subjects"></span></p>
+                    <p>Description: <span class="description"></span></p>
+                </div>
+                <a class="readmore">Read More</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

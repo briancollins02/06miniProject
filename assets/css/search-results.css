@@ -1,0 +1,51 @@
+* {
+    font-size: 16px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15%;
+}
+
+#search-engine {
+    min-height: 100vw;
+    width: 25vw;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+form *{
+    margin: 5px 0;
+    height: 30px;
+}
+
+
+
+#results {
+    width: 55vw;
+    background-color: palegreen;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 100%;
+    padding: 0 5px
+}
+
+.readmore {
+    padding: .2rem;
+    background-color: darkblue;
+    color: white;
+    border-radius: .2rem;
+
+}
